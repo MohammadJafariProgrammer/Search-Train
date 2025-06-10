@@ -1,0 +1,28 @@
+Project name: trainmap.xlsm
+This program lists train information, including arrival and departure times, along with station names and displays them in color based on the desired time or system time.
+Knowing the train information on the rail network is essential for train scheduling. So we need to know which stations the train(s) are at based on the current or desired time.
+Analyzing the traffic situation of the rail network and comparing the train list with the actual execution is effective for better scheduling.
+The main task of the project is to display a colored list of trains at each station based on the arrival and departure time.
+Which is done in three modes.
+1- Coloring the arrival and departure times of online trains in the train list tab.
+2- List of online suburban trains.
+3- List of all suburban trains
+The goal of this project is to simply display the position of trains in Excel and have an overview at any time without installing or running a special program.
+ In the future, online data from the rail network will be easily readable, which will be effective in analyzing train movements for better planning.
+The way to implement the project is very easy. Initially, we need at least 3 files to implement the project.
+1- The main Excel file of the project
+2- An Excel file containing the general list of train programs, a sample of which is placed as a sheet in the main Excel file.
+3- A folder containing the train movement details files.
+First, we copy all the files to the computer.
+By opening the Excel file and allowing macros to run in Excel, our project can be easily used.
+Without any additional program to run the macro, just activate the mapping sheet.
+The message for searching for trains is displayed with 3 options.
+1- Search in the trains schedule sheet
+We enter the name of the trains list sheet, for example (v1)
+By ignoring the above message, the train list file selection window will be displayed.
+ After that, select the current system time or a desired time.
+Then, in the train list tab, the online trains are colored based on time.
+2- Show details of suburban trains on the route 
+In the mapping sheet, it displays the online trains.
+3- Show details of all suburban trains
+The map sheet, it displays all suburban trains in the train list.
